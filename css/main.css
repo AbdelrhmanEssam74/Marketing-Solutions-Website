@@ -3,12 +3,27 @@ html {
 }
 body{
     height: 1000px;
+    background-color: #f5f5f2;
 }
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+/*Small*/
+@media (max-width:786px){
+    .row .text{
+        text-align: center;
+    }
+}
+
+/*Medium*/
+@media (max-width:992px){
+    .row .text{
+        text-align: center;
+    }
+}
+/* Start Header */
 nav ul a {
     position: relative;
 }
@@ -42,4 +57,28 @@ nav ul a:hover:after {
 .navbar-after-scroll {
     background-color: #171717;
     color: #ffffff ;
+}
+/* End Header */
+/* Start Hero Section */
+.row{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+.row .text{
+    display: flex;
+    align-items: center;
+}
+.row .main-heading{
+    font-weight: bold;
+    font-size: 50px;
+}
+.hero-image{
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-image img{
+    width:100%;
 }
