@@ -1,0 +1,20 @@
+#goToTop {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  background-color:#0f4d79;
+  color: white;
+  cursor: pointer;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: 0.5s all;
+}
+
+#goToTop:hover {
+  background-color:#082c46;
+}
